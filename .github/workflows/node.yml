@@ -13,5 +13,5 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: npm install
+      - run: npm run install-all
       - run: npm run build --prefix client
