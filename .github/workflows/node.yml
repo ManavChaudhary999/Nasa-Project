@@ -8,8 +8,12 @@ jobs:
   build:
     env: 
       CI: true
+<<<<<<< HEAD
       MONGO_URL: mongodb://localhost/nasa
     Strategy: 
+=======
+    strategy: 
+>>>>>>> 158708a13f85567b4d1785bd6862619d5e215652
       matrix:
         node-version: [14.x, 16.x]
         mongodb-version: ['4.4']
