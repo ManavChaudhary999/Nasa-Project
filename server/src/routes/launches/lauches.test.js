@@ -1,6 +1,5 @@
 const request = require("supertest"); // library used for testing http request
 const app = require("../../app");
-const { loadPlanetsData } = require("../../models/planets.model");
 const {mongodbConnect, mongodbDisconnect} = require("../../services/mongodb");
 const {loadPlanetsData} = require("../../models/planets.model");
 
